@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Administration</title>
+        <script src="js/jquery.js"></script>
+        <script src="js/admin-script.js"></script>
+        <link href="style/adm.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="authorization-back">
+            <div class="authorization">
+                <div class="authorization__items">
+                    <div class="authorization__close-button">
+                        <img src="images/close.png">
+                    </div>
+                    <div class="authorization__header">
+                        <h1>Авторизация</h1>
+                        <p>Введите логин и пароль, чтобы войти в личный кабинет</p>
+                    </div>
+                    <div class="authorization__input">
+                        <input type="email" id="mail" placeholder="Логин" required>
+                        <input type="password" id="passwd" placeholder="Пароль" required>
+                    </div>
+                    <div class="authorization__button">
+                        <button>Войти</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-part">
+            <div class="top-part__header">
+                <div class="top-part__left-side">
+                    <div class="top-part__logo">
+                        <img src="images/logo.png">
+                    </div>
+                    <div class="top-part__title inline_block">
+                        <p>Курьерская служба доставки</p>
+                    </div>
+                </div>
+                <div class="top-part__right-side">
+                    <div class="top-part__telephone inline_block">
+                        <div class="top-part__tele-logo inline_block">
+                            <img src="images/phone.png">
+                        </div>
+                        <div class="top-part__tele-number inline_block">
+                            <p>8 (909) 023-12-51</p>
+                        </div>
+                    </div>
+                    <div class="top-part__log-in-button inline_block">
+                        <button><b>Вход</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle-part">
+            <div class="middle-part__header">
+                <h1>Добавить новость</h1>
+                <p>Введите текст новости, а также приложите изображение (размер: 270х270px)</p>
+            </div>
+            <div class="middle-part__text">
+                <textarea id="txarea" placeholder="Введите текст новости"></textarea>
+            </div>
+            <div class="middle-part__image">
+                <img src="images/shape.png">
+                <p>+ Добавить изображение</p>
+            </div>
+            <div class="middle-part__button">
+                <button class="middle-part__submit">Применить</button>
+            </div>
+        </div>
+        <div class="bottom-part">
+            <div class="bottom__items">
+                <div class="bottom-part__logo">
+                    <img src="images/logo.png">
+                </div>
+                <div class="bottom-part__menu">
+                    <ul>
+                        <li><a>О компании</a></li>
+                        <li><a>Вакансии</a></li>
+                        <li><a>Клиенту</a></li>
+                        <li><a>Франчайзинг</a></li>
+                        <li><a>Доставка из Китая</a></li>
+                        <li><a>Все услуги</a></li>
+                        <li><a>Акции</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-part__contacts">
+                    <p>manager@uexpress.ru</p>
+                    <p>115221, г. Челябинск, ул. Северная, д. 29-в</p>
+                    <p>Мы работаем по 24 часа 5 дней в неделю</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
